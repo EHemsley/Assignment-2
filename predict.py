@@ -41,8 +41,6 @@ def load_checkpoint(filepath):
     return model
 
 model = load_checkpoint(save_dir)
-print(model)
-
 
 #Image Preprocessing
 def process_image(image):
